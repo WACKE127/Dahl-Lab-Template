@@ -1,0 +1,16 @@
+Static Website for Dahl Lab
+
+WSL Ubuntu-24.04
+
+sudo apt install gh
+
+(DOCKER DESKTOP ENABLED)
+sudo docker pull node:20-alpine
+sudo docker run node:20-alpine node
+
+npm install -g npm
+
+npm install next@latest react@latest react-dom@latest
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+
