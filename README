@@ -13,3 +13,8 @@ npm install -g npm
 npm install next@latest react@latest react-dom@latest
 npm install -D tailwindcss postcss autoprefixer
 npx tailwindcss init -p
+
+cd app
+cd tailwind theme
+npx degit 'timlrx/tailwind-nextjs-starter-blog'
+npm install
